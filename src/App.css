@@ -3,7 +3,6 @@
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -47,4 +46,13 @@
   overflow: hidden;
   /* max-width: 50px; */
   white-space: nowrap;
+}
+
+.form {
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.formInput {
+  padding-bottom: 20px;
 }
